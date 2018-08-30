@@ -18,11 +18,13 @@ http://groups.csail.mit.edu/sls/downloads/placesaudio/
 
 http://places.csail.mit.edu/
 
-Please follow the instructions provided in the PlacesAudio400k download package with respect to how to specify the paths to the datasets in the datafiles/[train,val].json files.
+Please follow the instructions provided in the PlacesAudio400k download package with respect to how to configure and specify the dataset .json files.
 
 ## Model Training
 
-python run.py --data-train datafiles/train.json --data-val datafiles/val.json
+python run.py train.json --data-val val.json
+
+Where train.json and val.json are included in the PlacesAudio400k dataset.
 
 See the run.py script for more training options.
 
