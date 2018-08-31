@@ -27,7 +27,3 @@ python run.py train.json --data-val val.json
 Where train.json and val.json are included in the PlacesAudio400k dataset.
 
 See the run.py script for more training options.
-
-## License
-
-This code is distributed under the BSD license.
